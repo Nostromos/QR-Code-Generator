@@ -18,7 +18,7 @@
 
 ## Overview
 
-![screenshot](xxx)
+![screenshot](https://github.com/Nostromos/QR-Code-Generator/blob/main/Project%20Starter/design/Tablet_1024px.jpg)
 
 ### What I learned
 
