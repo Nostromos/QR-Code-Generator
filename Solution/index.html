@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="description" content="In-browser QR Code Generator using QRCodeJS">
+  <meta name="keywords" content="HTML, CSS, JavaScript, QR Code">
+  <meta name="author" content="Michael Monaghan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons -->
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="index.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Metadata -->
+  <title>QR code generator | devChallenges.io</title>
+</head>
+
+<body>
+  <header>
+    <a href="/" aria-label="Home">
+      <img src="./resources/Logo.svg" alt="QRCodeGenerator">
+    </a>
+  </header>
+
+  <form class="wrapper" id="wrapper">
+    <input type="url" name="url" id="url" placeholder="Enter an url" pattern="https://.*" size="30" required />
+    <button type="button" onclick="getQRCode()">QR code</button>
+  </form>
+
+  <div id="qrcodebox"></div>
+
+  <footer class="author-info">
+    Coded by <a href="https://what.lol">Michael Monaghan</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </footer>
+</body>
+
+
+</html>

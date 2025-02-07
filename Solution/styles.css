@@ -1,0 +1,96 @@
+* {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 32px;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+
+  height: 70px;
+  width: 620px;
+
+  background-color: #030616;
+  border: 2px solid #263FA9;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.wrapper input {
+  width: 100%;
+  background-color: inherit;
+  color: #FAFAF9;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 24px;
+}
+
+.wrapper input::placeholder {
+  color: #FAFAF9;
+}
+
+.wrapper button {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  bottom: 6px;
+
+  background-color: #263FA9;
+  color: #FAFAF9;
+
+  border: none;
+  border-radius: 10px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-image: url("./resources/qa-bg-small.jpg");
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url("./resources/qa-bg.jpg");
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-image: url("./resources/qa-bg.jpg");
+  }
+}
