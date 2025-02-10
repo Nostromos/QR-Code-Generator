@@ -6,7 +6,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Nostromos/QR-Code-Generator/Solution">
+    <a href="https://github.com/Nostromos/QR-Code-Generator/">
       Solution
     </a>
     <span> | </span>
