@@ -22,4 +22,6 @@
 
 ### What I learned
 
-Yet again, pure HTML and CSS is a gigantic pain. I learned fullstack for a reason but I don't think I could do Frontend without a solid design team supporting me. 
+This was pretty simple & straightforward. CSS is still tricky and things like flexbox haven't clicked yet. My approach to getting good would be writing CSS daily until things click. I have more important and impactful things to do with my time but will continue to do my own styling wherever I can. 
+
+A second fun thing was remembering how easy it is to use JS and HTML together, either inline JS or importing it. The straightforward simplicity is delightful. No fooling around with import statements or configs - just colocate files, import JS into HTML, and stuff works. Nice to experience after spending a lot of time with React & Next.
